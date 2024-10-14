@@ -32,13 +32,13 @@ const UpSidebar = () => {
       {/* Sidebar container with dynamic classes based on visibility */}
 
       <div
-        className={`w-72 h-full bg-zinc-900 text-white fixed top-0 transition-all duration-500 ${
+        className={` z-10 w-72 h-full bg-zinc-900/90  sm:bg-zinc-900 text-white fixed top-0 transition-all duration-500 ${
           isTaskBarVisible ? "block" : "-translate-x-full"
         }`}
       >
         <div className="mt-3 flex items-center mb-3 pl-5">
           <img
-            src="verified.png"
+            src="/images/verified.png"
             alt="company logo"
             className="w-14 h-14 mr-2"
           />
