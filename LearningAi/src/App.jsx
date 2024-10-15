@@ -1,8 +1,9 @@
 import { useState } from 'react'
 
 import './App.css'
-import UpSidebar from './component/sideBar/UpSidebar'
-import Homepage from './component/homepage/Homepage'
+import UpSidebar from './component/mainPage/sideBar/UpSidebar'
+import Homepage from './component/mainPage/Herosection/Homepage'
+import Search from './component/mainPage/searchbar/Search'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +15,10 @@ function App() {
     </div>
     <div className=" text-white flex justify-center">
       <Homepage/>
+    </div>
+
+    <div>
+     <Search/>
     </div>
     
       

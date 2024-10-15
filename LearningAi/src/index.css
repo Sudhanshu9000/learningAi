@@ -31,5 +31,5 @@ body {
 }
 
 .transition-transform {
-  transition: transform 0.3s ease; /* Adjust timing and easing as needed */
+  transition: transform 0.3s ease;
 }

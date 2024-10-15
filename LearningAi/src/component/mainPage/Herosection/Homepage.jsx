@@ -11,7 +11,7 @@ const Homepage = () => {
   return (
 
     
-    <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 p-4 mt-16">
+    <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 p-4 mt-16 mb-20">
     
       {cardData.map((card, index) => (
         <Card key={index} image={card.image} title={card.title} />
