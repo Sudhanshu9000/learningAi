@@ -92,7 +92,7 @@ const Login = () => {
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
               alt="Apple Logo"
-              className="w-5 h-5 mr-2"
+              className="w-6 h-6 mr-2"
             />
             Continue with Apple
           </button>
