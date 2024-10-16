@@ -1,5 +1,6 @@
 import React from 'react';
 import Card from './Card';
+import IconLogSign from '../logsign/IconLogSign';
 
 const cardData = [
   { image: '/images/python_programming_image.jpeg', title: 'Create course of Python' },
@@ -9,7 +10,10 @@ const cardData = [
 
 const Homepage = () => {
   return (
-
+    <>
+      <div>
+          <IconLogSign/>
+      </div>
     
     <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 p-4 mt-16 mb-20">
     
@@ -17,6 +21,7 @@ const Homepage = () => {
         <Card key={index} image={card.image} title={card.title} />
       ))}
     </div>
+    </>
   );
 };
 

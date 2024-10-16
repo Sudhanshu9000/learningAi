@@ -12,7 +12,7 @@ const Search = () => {
           w-full 
           px-3 
           py-4
-         bg-gray-700
+         bg-zinc-700
          text-white 
           rounded-md 
           focus:outline-none
@@ -22,7 +22,7 @@ const Search = () => {
          pr-10
          "
           />
-          <span className="absolute right-3 cursor-pointer hover:text-gray-300 transition-colors bg-slate-600 hover rounded-lg p-1">
+          <span className="absolute right-3 cursor-pointer hover:text-gray-300 transition-colors bg-zinc-500 hover rounded-lg p-1">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
